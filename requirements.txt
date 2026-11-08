@@ -1,0 +1,11 @@
+# Mirrors pyproject.toml direct dependency declarations.
+# Keep this file in sync with:
+# - [project].dependencies
+# - [project.optional-dependencies].excel/pdf/docx/test
+fastmcp==3.4.11
+pydantic>=2.0.0
+openpyxl>=3.1.0
+pdfplumber>=0.11.0
+python-docx>=1.1.0
+pytest>=8.0.0
+pytest-asyncio>=0.24.0

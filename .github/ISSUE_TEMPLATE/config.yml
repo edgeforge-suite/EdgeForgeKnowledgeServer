@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Security policy - selected private routes await activation
+    url: https://github.com/edgeforge-suite/EdgeForgeKnowledgeServer/blob/main/SECURITY.md
+    about: Do not post undisclosed vulnerabilities publicly. PVR and security@edgeforgesuite.com are selected; enablement and operational verification remain pending.

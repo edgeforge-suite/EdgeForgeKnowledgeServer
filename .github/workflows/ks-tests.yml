@@ -1,0 +1,62 @@
+name: Knowledge Server Tests
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  test:
+    name: KS test suite
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: python -m pip install --constraint constraints.txt -e ".[all,test]"
+      - run: python scripts/dependency_audit.py installed --constraints constraints.txt
+      - run: python -m pip check
+      - run: python -m pytest -v --tb=short
+
+  core-install:
+    name: KS core-only install
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: python -m venv /tmp/edgeforge-ks-core
+      - run: /tmp/edgeforge-ks-core/bin/python -m pip install --constraint constraints.txt -e .
+      - run: /tmp/edgeforge-ks-core/bin/python -m pip check
+      - name: Verify optional parsers remain opt-in
+        run: |
+          /tmp/edgeforge-ks-core/bin/python - <<'PY'
+          from knowledge_server.parsers.docx_parser import _load_docx
+          from knowledge_server.parsers.excel_parser import _load_openpyxl
+          from knowledge_server.parsers.pdf_parser import _load_pdfplumber
+
+          for name, loader in (
+              ("openpyxl", _load_openpyxl),
+              ("pdfplumber", _load_pdfplumber),
+              ("python-docx", _load_docx),
+          ):
+              try:
+                  loader()
+              except ImportError as exc:
+                  if "required" not in str(exc):
+                      raise SystemExit(f"{name} missing-dependency error is not actionable") from exc
+              else:
+                  raise SystemExit(f"optional parser present in core-only install: {name}")
+          PY
+
+  dependency-audit:
+    name: Blocking dependency audit
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: PY=python scripts/check-dependency-audit.sh

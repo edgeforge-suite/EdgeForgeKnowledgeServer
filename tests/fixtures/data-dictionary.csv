@@ -1,0 +1,4 @@
+entity,field_name,type,length,nullable,description
+Account,account_id,string,12,false,Primary account identifier
+Account,available_balance,decimal,18,false,Available balance after memo activity
+Customer,customer_name,string,80,true,Customer display name

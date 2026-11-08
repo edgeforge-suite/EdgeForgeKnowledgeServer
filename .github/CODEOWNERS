@@ -1,0 +1,33 @@
+# CODEOWNERS — TEMPLATE ONLY (no active owners)
+#
+# Every line below is COMMENTED OUT and references no real GitHub user or team.
+# The maintainer configures public-project owners at repository setup;
+# adopters separately configure their own imports. Replace placeholders
+# with the intended owners. Until then, no code ownership is enforced.
+#
+# Recommended ownership split (see CONTRIBUTING.md and the Engine repo's
+# docs/suite-architecture.md):
+#   - Knowledge Server owns deterministic suggestions, indexing, and evidence.
+#   - Engine, Studio, and TestBench are separate repos and set their own CODEOWNERS.
+#
+# Syntax: <path-pattern>   @<org>/<team-or-user>
+#
+# Default — everything in this repo:
+# *                          @<org>/<knowledge-server-team>
+#
+# MCP server surface and tool handlers:
+# /knowledge_server/server.py  @<org>/<knowledge-server-team>
+# /knowledge_server/tools/     @<org>/<knowledge-server-team>
+#
+# Storage / index (SQLite FTS5/BM25) and models:
+# /knowledge_server/storage/   @<org>/<knowledge-server-team>
+# /knowledge_server/models/    @<org>/<knowledge-server-team>
+#
+# Document parsers and path-safety:
+# /knowledge_server/parsers/   @<org>/<knowledge-server-team>
+# /knowledge_server/safety.py  @<org>/<security-team>
+#
+# Docs and governance:
+# /docs/                       @<org>/<docs-or-ks-team>
+# /CONTRIBUTING.md             @<org>/<knowledge-server-team>
+# /SECURITY.md                 @<org>/<security-team>
