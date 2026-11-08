@@ -97,3 +97,10 @@ source files and unrelated projects retain the existing purge protections.
 Raw baseline/candidate JSON and concise validation/review evidence are retained
 in the maintainer's existing private artifact location outside iCloud, not
 committed as another archive. No merge, publication, version or settings change.
+
+**Retention clarification — 2026-11-07:** the October 28 record's "outside
+iCloud" claim is not established by the verified retention location. The known
+copy is retained privately outside Git in a cloud-synced personal folder. This
+does not establish whether another copy existed earlier. The dated dependency
+results and hashes are unchanged. The November 2 correction has a separate
+retention record and does not establish the October 28 location.

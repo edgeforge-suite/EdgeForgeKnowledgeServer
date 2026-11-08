@@ -3,7 +3,11 @@
 ## Current v5 Preparation
 
 Authority: maintainer-approved **EF-V5-RELEASE-SCOPE-RESET revision 3** and
-**EF-V5-SOURCE-PREP-KS-S1 revision 2**. These supersede conflicting older gates.
+**EF-V5-RELEASE-PREP-KS-S1 revision 2** for the current version/documentation
+closeout. Earlier **EF-V5-SOURCE-PREP-KS-S1 revision 2** proof remains dated.
+The private cutover is complete; this is the actual
+`edgeforge-suite/EdgeForgeKnowledgeServer` repository. These authorities
+supersede conflicting older gates.
 Private preparation is authorized; maintainer publication authorization
 is still required before public exposure. Source repositories/tags are the
 selected distribution; website hosting is separate. No package/image publishing
@@ -20,11 +24,12 @@ still be verified before exposure; supporting non-public records stay private.
 This editorial change grants no clearance and does not change dated proof.
 
 Apache-2.0, short NOTICE, copyright Santosh Hommaradi, DCO 1.1/no CLA and the
-public destination `edgeforge-suite/EdgeForgeKnowledgeServer` are settled.
+destination `edgeforge-suite/EdgeForgeKnowledgeServer` are settled; the
+repository remains private.
 GitHub PVR is the selected primary reporting route and
 `security@edgeforgesuite.com` the selected email route. PVR enablement at public
 cutover and email activation/testing are pending, not verified operation.
-See [SECURITY](../SECURITY.md) and the [current proof](handover-evidence/v5-source-preparation.md).
+See [SECURITY](../SECURITY.md) and the [dated October 25 proof](handover-evidence/v5-source-preparation.md).
 
 References to pre-v5 commits, pull requests, issues and workflow runs point to the private development archive and may be inaccessible to public readers.
 
@@ -54,7 +59,7 @@ release tuple. Engine and Studio work may proceed independently.
 | Maintainer publication authorization | Maintainer | Verify applicable rights and permissions before authorizing public exposure; keep supporting non-public records private. Apache-2.0, copyright, NOTICE and DCO 1.1/no CLA are selected and applied; no new license choice is pending. |
 | Reporting-route operation | Maintainer / security owner | Enable and verify GitHub PVR at public cutover; activate and test security@edgeforgesuite.com; confirm accountable handling. Selection is not availability and no SLA is invented. |
 | Distribution-specific third-party obligations | Maintainer / distribution owner | Source release does not bundle dependency wheels. Preserve dependency notices and artifact-specific evidence; review obligations separately if publishing third-party binaries or bundles. No legal-risk acceptance is made here. |
-| Final release metadata and cutover | Suite release owner / KS maintainer | Confirm final refs, version/changelog/tag reconciliation and selected public destination availability. This preparation does not bump versions, create tags, transfer repositories or authorize exposure. |
+| Final release metadata and public cutover | Suite release owner / KS maintainer | Package/runtime version 5.0.0 and the preparation changelog are set in this private repository. Final source pairing, release records, selected-revision acceptance, tags and public availability remain later Suite work. This preparation does not authorize exposure. |
 
 These are public-project responsibilities. Enterprise adopters separately own
 their local import approval, package mirrors, host security, corpus policy and
@@ -76,8 +81,9 @@ Follow [SECURITY](../SECURITY.md) for undisclosed vulnerabilities. Selected PVR
 and email routes await enablement/activation and verification; public issues are
 not a substitute.
 
-The issue chooser links the security policy at the selected public destination.
-That destination and its reporting routes are not claimed operational yet.
+The issue chooser links this private repository's security policy. Authorized
+collaborators can use the ordinary issue templates; public access and operational
+security-reporting routes remain pending.
 Blank issues remain available; guidance is not technical disclosure prevention.
 
 ## Starter Issue Drafts

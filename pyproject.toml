@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "edgeforge-knowledge-server"
-version = "4.1.0"
+version = "5.0.0"
 description = "EdgeForge Phase 5 Knowledge Server MCP"
 readme = "README.md"
 requires-python = ">=3.11"
