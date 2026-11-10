@@ -73,7 +73,10 @@ Recommended PR title prefixes: `[FEATURE]`, `[FIX]`, `[DOCS]`, `[CHORE]`.
 See [project intent and community](README.md#project-intent-and-community) for
 ordinary questions, feedback and the maintainer's service boundaries.
 
-Use the repository's bug or feature issue template for non-security work. Search
+This private release-preparation repository is
+[`edgeforge-suite/EdgeForgeKnowledgeServer`](https://github.com/edgeforge-suite/EdgeForgeKnowledgeServer).
+Authorized collaborators can use its bug or feature issue template for
+non-security work; public access remains pending. Search
 existing issues and the relevant Suite backlog before proposing a duplicate.
 For a bug, include the commit/version, Python and OS, installed extras, expected
 and actual results, and a minimal synthetic reproduction. For a feature, explain

@@ -41,7 +41,11 @@ Current 16-tool vocabulary:
 15. `get_field_evidence_chain`
 16. `submit_suggestion_decisions`
 
-KS participates in the EdgeForge suite `v4.1.0` handover-consistency posture and includes deterministic identity-role suggestion support for Studio Step 3 review. The KS package version is aligned to `4.1.0`; `v4.0.0` denotes the suite-alignment milestone for deterministic broader suggestion scopes and enterprise-readiness handoff. Historical tag/package reconciliation remains part of the pending release metadata work.
+The KS package and runtime version is `5.0.0` for private source release
+preparation. It includes deterministic identity-role suggestion support for
+Studio Step 3 review. The earlier `v4.1.0` handover-consistency posture and
+`v4.0.0` suite-alignment milestone remain historical baselines. Final Suite
+source pairing, selected-revision acceptance and release tags remain pending.
 
 Important nuance:
 
@@ -74,12 +78,15 @@ evidence can reference other projects in the same store. Trust-separated corpora
 require appropriate database/process boundaries. See the
 [security boundary map](docs/security-boundary-map.md#3a-mcp-stdio-interface).
 
-Private v5 source preparation follows EF-V5-RELEASE-SCOPE-RESET revision 3.
+This is the private v5 release-preparation repository under `edgeforge-suite`.
+Current version/documentation closeout follows EF-V5-RELEASE-PREP-KS-S1 revision 2
+and preserves the policy in EF-V5-RELEASE-SCOPE-RESET revision 3.
 Apache-2.0, copyright Santosh Hommaradi and DCO 1.1 (no CLA) are selected and
 applied in [LICENSE](LICENSE), [NOTICE](NOTICE) and [CONTRIBUTING](CONTRIBUTING.md).
 Maintainer publication authorization, reporting-route activation/testing
 and public cutover remain pending. See [publication preparation](docs/publication-preparation.md).
-Package version 4.1.0 remains unchanged; no release tags or artifacts are created here.
+Public launch remains subject to those gates; this preparation creates no
+release tags or published artifacts.
 
 References to pre-v5 commits, pull requests, issues and workflow runs point to the private development archive and may be inaccessible to public readers.
 
@@ -98,8 +105,8 @@ service commitments.
 
 Start with the [documentation](docs/README.md). Use
 [project issues](https://github.com/edgeforge-suite/EdgeForgeKnowledgeServer/issues)
-for ordinary questions, bugs and suggestions once the public destination is
-activated; its availability is not asserted here. See [CONTRIBUTING](CONTRIBUTING.md)
+for ordinary questions, bugs and suggestions by authorized collaborators in
+this private repository. Public access remains pending. See [CONTRIBUTING](CONTRIBUTING.md)
 for contributions and [SECURITY](SECURITY.md) for private vulnerability reporting.
 Share only synthetic examples and redacted diagnostics.
 
@@ -427,8 +434,8 @@ path-list separator (`:` on POSIX, `;` on Windows).
 
 ## Cross-Repo References
 
-These suite source-of-truth docs live in the sibling EdgeForge repository. Use
-the same organization/remote that owns this KS checkout after import:
+These suite source-of-truth docs live in the sibling
+`edgeforge-suite/EdgeForge` repository:
 
 - `EdgeForge/docs/EdgeForge Target State Features v1.md`
 - `EdgeForge/docs/studio-ks-orchestration-design.md`

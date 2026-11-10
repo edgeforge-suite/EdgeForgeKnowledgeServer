@@ -116,13 +116,15 @@ PY=python3.11 scripts/generate-dependency-evidence.sh 2026-10-25
 
 ## Bounded Current-Content And Publication Check
 
-Reviewed current tracked files and prepared changes, fixtures, metadata, docs,
-workflow/config references and attribution. The only tracked compressed fixture
+At the October 25 preparation head, reviewed tracked files and prepared changes,
+fixtures, metadata, docs, workflow/config references and attribution. The only tracked compressed fixture
 is the XLSX dictionary: nine ZIP entries, fabricated Account/Customer field
 rows, creator `openpyxl`, no embedded source corpus. Plain fixtures contain
 generic fabricated requirements/DDL, not production records. No private
 planning material or non-public correspondence was added or found in this bounded
 current-tree pass. This is not synthetic-only certification or a history scan.
+This dated pass does not establish a content review of later corrections,
+the private import or the v5 release-preparation head.
 Existing gitleaks 8.30.1 current-directory scanning reports no configured-pattern
 findings; no new scanner/evidence tooling or archive campaign was introduced.
 Generated build outputs were moved out of the checkout and are not committed.

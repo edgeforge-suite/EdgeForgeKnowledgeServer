@@ -218,7 +218,7 @@ def test_documented_installed_bootstrap_packages_are_allowed() -> None:
     actual = _inventory(
         [
             ("expected-package", "1.0.0"),
-            ("edgeforge-knowledge-server", "4.1.0"),
+            ("edgeforge-knowledge-server", "5.0.0"),
             ("pip", "26.0.1"),
             ("setuptools", "82.0.0"),
             ("wheel", "0.46.3"),
@@ -241,7 +241,7 @@ def test_installed_environment_rejects_unlisted_application_dependency(
     constraints.write_text("expected-package==1.0.0\n", encoding="utf-8")
     distributions = [
         SimpleNamespace(metadata={"Name": "expected-package"}, version="1.0.0"),
-        SimpleNamespace(metadata={"Name": "edgeforge-knowledge-server"}, version="4.1.0"),
+        SimpleNamespace(metadata={"Name": "edgeforge-knowledge-server"}, version="5.0.0"),
         SimpleNamespace(metadata={"Name": "pip"}, version="26.0.1"),
         SimpleNamespace(metadata={"Name": "unlisted-application-package"}, version="9.9.9"),
     ]
