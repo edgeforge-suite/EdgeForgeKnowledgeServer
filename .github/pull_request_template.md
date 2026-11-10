@@ -11,12 +11,15 @@ await operational verification. Use synthetic examples and redacted diagnostics.
 
 ## Why
 
-<!-- Why is this change needed? Link the roadmap item / issue if any. -->
+<!-- What problem does this solve? -->
+
+Linked issue: <!-- Link the owning issue and confirmed scope, or explain if none applies. -->
 
 ## Validation
 
-<!-- Commands run and their results (e.g. python -m pytest, real stdio MCP
-     round-trip). Paste real output where it matters. -->
+<!-- Record the tested revision, commands actually run, results, skips and untested
+     limitations. Use relevant checks; prose-only edits need content/link checks,
+     not new tests that merely assert wording. -->
 
 ## Suggestion/evidence contract risk
 
@@ -35,7 +38,10 @@ await operational verification. Use synthetic examples and redacted diagnostics.
 - [ ] Relevant validation results and limitations are recorded; behavior changes
       have regression coverage, docs-only changes have content/link checks
 - [ ] Required checks pass for the proposed commit; review covers that commit
-- [ ] Contribution commits carry a DCO 1.1 Signed-off-by trailer (no CLA)
+- [ ] Contribution commits carry the contributor's DCO 1.1 Signed-off-by trailer (`git commit -s`; no CLA)
 - [ ] Docs updated in the same PR if behavior changed
-- [ ] No secrets, real/production data, or domain-specific/third-party names in committed content
+- [ ] No secrets, private employer/customer material or real/production data; fixtures are synthetic
 - [ ] Attachments, paths and logs manually checked; no undisclosed vulnerability details
+
+<!-- Necessary public dependency names, upstream references and attribution are
+     permitted under CONTRIBUTING.md; preserve applicable permissions and notices. -->
