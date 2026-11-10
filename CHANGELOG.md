@@ -13,7 +13,13 @@ EdgeForge suite version when it participates in a suite baseline.
   `[FEATURE]`, `[DOCS]`, `[CHORE]`); releases collect those merged changes into
   suite-aligned tags.
 
-## Unreleased — v5 Source Preparation
+## 5.0.0 — Source Release Preparation (Unreleased)
+
+- Set package and runtime versions to 5.0.0 in the private
+  `edgeforge-suite/EdgeForgeKnowledgeServer` repository. This section collects
+  preparation changes; no release date, tag, final audit or Suite acceptance is
+  established. Dependencies, the 16-tool contract and storage behavior are
+  unchanged by this version/documentation closeout.
 
 - Clarify independent community maintenance and optional self-managed enterprise
   adoption; use neutral publication-authorization wording in preparation
@@ -38,8 +44,8 @@ EdgeForge suite version when it participates in a suite baseline.
   and DCO 1.1 sign-off guidance (no CLA). Select the edgeforge-suite destination,
   GitHub PVR and security@edgeforgesuite.com; route operation and maintainer
   publication authorization remain pending before exposure.
-- This is private source preparation, not a release-version bump, tag or public
-  publication. See the [current proof](docs/handover-evidence/v5-source-preparation.md).
+- Earlier dependency and packaging checks remain dated evidence, not final v5
+  acceptance. See the [October 25 preparation proof](docs/handover-evidence/v5-source-preparation.md).
 
 ### Earlier MCP Dependency Correction — 2026-10-15
 

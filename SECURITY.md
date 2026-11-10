@@ -7,6 +7,10 @@
 > proof that either route works; these are
 > [publication gates](docs/publication-preparation.md#remaining-maintainer-decisions).
 
+This policy belongs to the private
+`edgeforge-suite/EdgeForgeKnowledgeServer` release-preparation repository.
+Its existence does not establish an operational vulnerability-reporting route.
+
 ## Reporting a vulnerability
 
 - **Do not** open a public issue or pull request for an undisclosed
