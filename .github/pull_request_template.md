@@ -1,8 +1,8 @@
 <!--
 EdgeForge Knowledge Server pull request. See CONTRIBUTING.md for the authoritative
 rules and README.md for the tool vocabulary and boundaries.
-Do not disclose vulnerabilities here. Read SECURITY.md; selected private routes
-await operational verification. Use synthetic examples and redacted diagnostics.
+Do not disclose vulnerabilities here. Read SECURITY.md for private reporting
+routes and availability guidance. Use synthetic examples and redacted diagnostics.
 -->
 
 ## What

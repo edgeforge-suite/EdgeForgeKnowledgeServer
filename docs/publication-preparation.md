@@ -1,22 +1,24 @@
 # KS Publication Preparation
 
-## Current v5 Preparation
+## Current v5 Publication Guidance
 
 Authority: maintainer-approved **EF-V5-RELEASE-SCOPE-RESET revision 3** and
 **EF-V5-RELEASE-PREP-KS-S1 revision 2** for the current version/documentation
 closeout. Earlier **EF-V5-SOURCE-PREP-KS-S1 revision 2** proof remains dated.
-The private cutover is complete; this is the actual
+This is the
 `edgeforge-suite/EdgeForgeKnowledgeServer` repository. These authorities
 supersede conflicting older gates.
-Private preparation is authorized; maintainer publication authorization
-is still required before public exposure. Source repositories/tags are the
+The selected sources and completed coordinated technical acceptance are recorded
+in the [Suite acceptance results](https://github.com/edgeforge-suite/EdgeForge/blob/92d0de224d127525b3b3db1365cf931188ccfffb/docs/handover-evidence/v5-acceptance-2026-11-10.md).
+Maintainer publication authorization is required before public exposure;
+technical acceptance does not grant it. Source repositories/tags are the
 selected distribution; website hosting is separate. No package/image publishing
 is selected here. Python 3.11 is the v5 minimum; SQLite compatibility is unchanged.
 
 The [project-intent statement](../README.md#project-intent-and-community) applies
 to this preparation. The maintainer's choice not to monetize adds no restriction
-to Apache-2.0 or commercial use by adopters and does not satisfy the pending
-publication-authority gate.
+to Apache-2.0 or commercial use by adopters and does not grant publication
+authority.
 
 **Wording clarification (2026-11-05):** the public gate is described as
 maintainer publication authorization. Applicable rights and permissions must
@@ -24,11 +26,11 @@ still be verified before exposure; supporting non-public records stay private.
 This editorial change grants no clearance and does not change dated proof.
 
 Apache-2.0, short NOTICE, copyright Santosh Hommaradi, DCO 1.1/no CLA and the
-destination `edgeforge-suite/EdgeForgeKnowledgeServer` are settled; the
-repository remains private.
+destination `edgeforge-suite/EdgeForgeKnowledgeServer` are settled.
 GitHub PVR is the selected primary reporting route and
 `security@edgeforgesuite.com` the selected email route. PVR enablement at public
-cutover and email activation/testing are pending, not verified operation.
+cutover and email delivery/reply tests before exposure are operator requirements,
+not operation established by this guidance.
 See [SECURITY](../SECURITY.md) and the [dated October 25 proof](handover-evidence/v5-source-preparation.md).
 
 References to pre-v5 commits, pull requests, issues and workflow runs point to the private development archive and may be inaccessible to public readers.
@@ -57,16 +59,16 @@ release tuple. Engine and Studio work may proceed independently.
 | Decision | Owner | Evidence needed before public release |
 |---|---|---|
 | Maintainer publication authorization | Maintainer | Verify applicable rights and permissions before authorizing public exposure; keep supporting non-public records private. Apache-2.0, copyright, NOTICE and DCO 1.1/no CLA are selected and applied; no new license choice is pending. |
-| Reporting-route operation | Maintainer / security owner | Enable and verify GitHub PVR at public cutover; activate and test security@edgeforgesuite.com; confirm accountable handling. Selection is not availability and no SLA is invented. |
+| Reporting-route operation | Maintainer / security owner | Verify security@edgeforgesuite.com delivery and replies before public exposure; confirm accountable handling and actual reply identity. Enable and verify GitHub PVR at public cutover, including an appropriate non-admin reporter check before Release publication/announcement. Selection is not availability and no SLA is invented. |
 | Distribution-specific third-party obligations | Maintainer / distribution owner | Source release does not bundle dependency wheels. Preserve dependency notices and artifact-specific evidence; review obligations separately if publishing third-party binaries or bundles. No legal-risk acceptance is made here. |
-| Final release metadata and public cutover | Suite release owner / KS maintainer | Package/runtime version 5.0.0 and the preparation changelog are set in this private repository. Final source pairing, release records, selected-revision acceptance, tags and public availability remain later Suite work. This preparation does not authorize exposure. |
+| Final release metadata and public cutover | Suite release owner / KS maintainer | Preserve the accepted E/S/K source selection and P/R records identified in the Suite acceptance results. Obtain approval of the actual refreshed main trees and associated PR/Actions material before exposure. Tags, Release publication and visibility changes require their separate authorizations; documentation successors are not replacement tag targets. |
 
 These are public-project responsibilities. Enterprise adopters separately own
 their local import approval, package mirrors, host security, corpus policy and
 internal support. Operating deployments and handling confidential adopter data
 are not maintainer services offered by this project.
 Neither an adopter's later assessment nor green preparation CI closes the
-project's pending publication gates. Final audit freshness and the existing
+project's publication gates. Final audit freshness and the existing
 [dependency owner decisions](handover-evidence/dependency-closure-2026-10-01.md#open-owner-decisions)
 remain with release/security owners; no new audit schedule is established here.
 
@@ -77,13 +79,11 @@ Read [CONTRIBUTING](../CONTRIBUTING.md), use the repository's
 [feature](../.github/ISSUE_TEMPLATE/feature_request.md) template for non-security
 reports, and use the [PR template](../.github/pull_request_template.md) for scoped
 changes. Submit synthetic reproductions and manually redacted diagnostics only.
-Follow [SECURITY](../SECURITY.md) for undisclosed vulnerabilities. Selected PVR
-and email routes await enablement/activation and verification; public issues are
-not a substitute.
+Follow [SECURITY](../SECURITY.md) for PVR when available, the designated security
+email and how to request a private channel if neither route is available.
 
-The issue chooser links this private repository's security policy. Authorized
-collaborators can use the ordinary issue templates; public access and operational
-security-reporting routes remain pending.
+The issue chooser links this repository's security policy. Use ordinary issue
+templates for non-security work when you have repository access.
 Blank issues remain available; guidance is not technical disclosure prevention.
 
 ## Starter Issue Drafts

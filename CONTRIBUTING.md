@@ -101,10 +101,10 @@ review, new release gate or reset of an existing allowance.
 See [project intent and community](README.md#project-intent-and-community) for
 ordinary questions, feedback and the maintainer's service boundaries.
 
-This private release-preparation repository is
+The project repository is
 [`edgeforge-suite/EdgeForgeKnowledgeServer`](https://github.com/edgeforge-suite/EdgeForgeKnowledgeServer).
-Authorized collaborators can use its bug or feature issue template for
-non-security work; public access remains pending. Search
+Use its bug or feature issue template for non-security work when you have
+repository access. Search
 existing issues and the relevant Suite backlog before proposing a duplicate.
 For a bug, include the commit/version, Python and OS, installed extras, expected
 and actual results, and a minimal synthetic reproduction. For a feature, explain
@@ -116,9 +116,8 @@ SQLite stores, secrets or production data. Redacting a filename does not sanitiz
 its contents. KS ingestion does not sanitize submitted documents.
 
 **Undisclosed vulnerabilities must not go into public issues or PRs.** Follow
-[SECURITY.md](SECURITY.md); GitHub PVR and `security@edgeforgesuite.com` are selected
-but activation and operational verification remain pending. Do not treat route
-selection as proof that a reporting channel works.
+[SECURITY.md](SECURITY.md) for GitHub PVR when available, the designated security
+email and how to request a private channel if neither route is available.
 
 ## License And Sign-Off
 
@@ -133,9 +132,9 @@ git commit -s -m "Describe the scoped change"
 
 This adds a `Signed-off-by: Your Name <your-email>` trailer using your configured
 identity. Do not sign for someone else or rewrite historical commits as part of
-this preparation. These terms are selected under EF-V5-RELEASE-SCOPE-RESET rev3;
-maintainer publication authorization and public cutover remain pending.
-See [publication preparation](docs/publication-preparation.md) for those gates.
+this preparation. Maintainer publication authorization and public-cutover checks
+are separate from contribution terms; see
+[publication preparation](docs/publication-preparation.md).
 
 ## Setup, Build, Test
 

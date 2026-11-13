@@ -1,39 +1,29 @@
 # Security Policy
 
-> **Selected routes; operation not yet verified.** GitHub Private Vulnerability
-> Reporting (PVR) is the primary public reporting route selected for v5.
-> `security@edgeforgesuite.com` is the selected email route. PVR enablement at
-> public cutover and email activation/testing remain pending. Selection is not
-> proof that either route works; these are
-> [publication gates](docs/publication-preparation.md#remaining-maintainer-decisions).
-
-This policy belongs to the private
-`edgeforge-suite/EdgeForgeKnowledgeServer` release-preparation repository.
-Its existence does not establish an operational vulnerability-reporting route.
+This policy belongs to `edgeforge-suite/EdgeForgeKnowledgeServer`. Report
+suspected vulnerabilities through an available private route below. Publication
+operators must verify reporting routes under the
+[public-cutover requirements](docs/publication-preparation.md#remaining-maintainer-decisions);
+listing an address or form is not evidence of its operation.
 
 ## Reporting a vulnerability
 
 - **Do not** open a public issue or pull request for an undisclosed
   vulnerability.
-- The selected primary destination is
+- Use GitHub Private Vulnerability Reporting (PVR), **when available**:
   <https://github.com/edgeforge-suite/EdgeForgeKnowledgeServer/security/advisories/new>.
-  Use it only after PVR is enabled and verified at public cutover. Its current
-  availability is not asserted.
-- The selected email address is `security@edgeforgesuite.com`; activation and
-  delivery/reply testing have not been verified. Do not send sensitive material
-  to an unverified route.
-- Until an operational route is confirmed, withhold exploit details, credentials,
-  sensitive files and reproduction material from public issues and PRs. If you
-  already have a verified private maintainer channel, use it to request routing;
-  otherwise wait for this policy to identify a working channel. Do not place
-  vulnerability details in a public request for contact information.
+  Confirm that the destination opens a private report before submitting details.
+- The designated security email is **`security@edgeforgesuite.com`**.
+- If neither route is available, request a private maintainer channel without
+  including vulnerability details in a public issue or PR. Share reproduction
+  material and sensitive details only through an available private route.
 - Include: affected component (an MCP tool, the storage/index layer, a document
   parser), version/baseline or commit, reproduction steps, and impact.
 
-The maintainer must confirm an accountable responder and document disclosure
-expectations when the routes are operational. No acknowledgement deadline or
-response SLA is promised. Maintainer publication authorization remains pending;
-this private preparation does not authorize public exposure.
+The maintainer must identify an accountable responder and document coordinated
+disclosure handling. No acknowledgement deadline or response SLA is promised.
+Maintainer publication authorization is separate from technical acceptance and
+reporting-route selection.
 
 ## Supported versions
 

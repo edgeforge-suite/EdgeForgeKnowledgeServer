@@ -17,7 +17,7 @@ It is intentionally not:
 - an LLM reasoning or generation service
 - a network/SSE or auth-enabled service
 
-## Status — Private v5 Source Preparation
+## Status — v5 Source and Technical Acceptance
 
 **All 16 current MCP tools are implemented and tested.**
 Wire protocol is verified via real stdio subprocess round-trips.
@@ -41,11 +41,14 @@ Current 16-tool vocabulary:
 15. `get_field_evidence_chain`
 16. `submit_suggestion_decisions`
 
-The KS package and runtime version is `5.0.0` for private source release
-preparation. It includes deterministic identity-role suggestion support for
-Studio Step 3 review. The earlier `v4.1.0` handover-consistency posture and
-`v4.0.0` suite-alignment milestone remain historical baselines. Final Suite
-source pairing, selected-revision acceptance and release tags remain pending.
+The KS package and runtime version is `5.0.0`. It includes deterministic
+identity-role suggestion support for Studio Step 3 review. The earlier `v4.1.0`
+handover-consistency posture and
+`v4.0.0` suite-alignment milestone remain historical baselines. The selected
+Engine/Studio/KS sources and completed technical acceptance are recorded in the
+[Suite acceptance results](https://github.com/edgeforge-suite/EdgeForge/blob/92d0de224d127525b3b3db1365cf931188ccfffb/docs/handover-evidence/v5-acceptance-2026-11-10.md).
+Tags and public Releases require separate maintainer authorization; a package
+version alone does not establish publication.
 
 Important nuance:
 
@@ -78,15 +81,13 @@ evidence can reference other projects in the same store. Trust-separated corpora
 require appropriate database/process boundaries. See the
 [security boundary map](docs/security-boundary-map.md#3a-mcp-stdio-interface).
 
-This is the private v5 release-preparation repository under `edgeforge-suite`.
-Current version/documentation closeout follows EF-V5-RELEASE-PREP-KS-S1 revision 2
-and preserves the policy in EF-V5-RELEASE-SCOPE-RESET revision 3.
-Apache-2.0, copyright Santosh Hommaradi and DCO 1.1 (no CLA) are selected and
+This is the `edgeforge-suite/EdgeForgeKnowledgeServer` repository.
+Apache-2.0, copyright Santosh Hommaradi and DCO 1.1 (no CLA) are
 applied in [LICENSE](LICENSE), [NOTICE](NOTICE) and [CONTRIBUTING](CONTRIBUTING.md).
-Maintainer publication authorization, reporting-route activation/testing
-and public cutover remain pending. See [publication preparation](docs/publication-preparation.md).
-Public launch remains subject to those gates; this preparation creates no
-release tags or published artifacts.
+Public exposure requires maintainer authorization. The
+[publication requirements](docs/publication-preparation.md) distinguish email
+checks before exposure from PVR checks at public cutover. Technical acceptance
+does not authorize tags, Releases or public launch.
 
 References to pre-v5 commits, pull requests, issues and workflow runs point to the private development archive and may be inaccessible to public readers.
 
@@ -105,8 +106,8 @@ service commitments.
 
 Start with the [documentation](docs/README.md). Use
 [project issues](https://github.com/edgeforge-suite/EdgeForgeKnowledgeServer/issues)
-for ordinary questions, bugs and suggestions by authorized collaborators in
-this private repository. Public access remains pending. See [CONTRIBUTING](CONTRIBUTING.md)
+for ordinary questions, bugs and suggestions when you have repository access.
+See [CONTRIBUTING](CONTRIBUTING.md)
 for contributions and [SECURITY](SECURITY.md) for private vulnerability reporting.
 Share only synthetic examples and redacted diagnostics.
 
