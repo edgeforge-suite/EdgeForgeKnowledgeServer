@@ -7,9 +7,7 @@ assignees: ''
 ---
 
 <!-- Undisclosed vulnerability? STOP: do not post details in a public issue or
-PR. Read SECURITY.md at the repository root. PVR and the email route are selected
-but activation/verification remain pending. Withhold sensitive details until an
-operational private route is confirmed. -->
+PR. Read SECURITY.md for private reporting routes and availability guidance. -->
 
 ## Problem
 
