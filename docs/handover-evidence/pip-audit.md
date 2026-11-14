@@ -4,7 +4,7 @@
 > [`constraints.txt`](../../constraints.txt) dependency set, with coverage
 > checked against the committed constraints file.
 >
-> **Generated:** 2026-11-02, with **pip-audit 2.10.1**.
+> **Generated:** 2026-11-14, with **pip-audit 2.10.1**.
 > Raw JSON: [`pip-audit.json`](pip-audit.json).
 > **Reference baseline:** CPython 3.11 on Ubuntu 24.04 x86_64. The scanner checks
 > every exact package version in `constraints.txt` without resolving a second

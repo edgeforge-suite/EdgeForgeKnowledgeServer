@@ -4,13 +4,27 @@
 > asks for first, for **Knowledge Server's Python dependency surface**.
 > Part of the handover-evidence set (the G10 index links these).
 >
-> **Current snapshot:** joserfc correction, 2026-11-02 (America/Chicago).
-> Findings, verification and limits are in the [current receipt](joserfc-correction-2026-11-02.md).
+> **Current snapshot:** dnspython / OpenTelemetry API correction, 2026-11-14 (America/Chicago).
+> The generated reports below record the current inventory and scan results.
 > These artifacts are **regeneratable** with named,
 > pinned tools (below).
 
-The [current correction](joserfc-correction-2026-11-02.md) identifies the one
-changed pin and its qualification. The [October 28 correction](audit-correction-2026-10-28.md)
+The current graph updates only transitive dnspython 2.9.0 to 2.9.2 and
+OpenTelemetry API 1.45.1 to 1.45.2 for
+[GHSA-vvf4-9x63-8xvv](https://github.com/advisories/GHSA-vvf4-9x63-8xvv) and
+[GHSA-mf5v-w3w3-f6cg](https://github.com/advisories/GHSA-mf5v-w3w3-f6cg).
+The other 82 reference versions and all direct declarations are unchanged.
+The regenerated audit, SBOM and transitive licences cover the same 84-package
+reference graph; this is not whole-image or Suite acceptance clearance.
+
+The SBOM also records the existing project version 5.0.0 and the actual generator
+environment's installer packages. Those components are outside the 84-pin audit
+surface. The unchanged caio 0.9.25 package is reported as UNKNOWN by this host's
+license-metadata scan, alongside the existing certifi MPL flag; the reports retain
+that classification rather than treating it as license acceptance.
+
+The [November 2 correction](joserfc-correction-2026-11-02.md) preserves its one
+changed pin and qualification as dated evidence. The [October 28 correction](audit-correction-2026-10-28.md)
 preserves its two-pin change and eight baseline findings as dated evidence. The
 [source-preparation record](v5-source-preparation.md) preserves its earlier
 five-pin change, graph/report identities and Python 3.11 proof as dated evidence.
@@ -21,7 +35,7 @@ proof, Python 3.10 differences, unresolved license flags, and historical
 enforcement gap. Its [2026-10-03 correction addendum](dependency-closure-2026-10-01.md#documentation-correction-addendum---2026-10-03)
 records bounded repository-advisory lookups, artifact-specific licensing and
 the applied required audit check. That October 1 observation is preserved;
-the generated current reports now reflect the November 2 correction.
+the generated current reports now reflect the November 14 two-pin correction.
 
 ## The artifacts
 

@@ -473,14 +473,6 @@
           "url": "https://github.com/mosquito/caio/"
         }
       ],
-      "licenses": [
-        {
-          "license": {
-            "acknowledgement": "declared",
-            "id": "Apache-2.0"
-          }
-        }
-      ],
       "name": "caio",
       "purl": "pkg:pypi/caio@0.9.25",
       "type": "library",
@@ -719,7 +711,7 @@
       "version": "4.19.0"
     },
     {
-      "bom-ref": "dnspython==2.9.0",
+      "bom-ref": "dnspython==2.9.2",
       "description": "DNS toolkit",
       "externalReferences": [
         {
@@ -752,9 +744,9 @@
         }
       ],
       "name": "dnspython",
-      "purl": "pkg:pypi/dnspython@2.9.0",
+      "purl": "pkg:pypi/dnspython@2.9.2",
       "type": "library",
-      "version": "2.9.0"
+      "version": "2.9.2"
     },
     {
       "bom-ref": "docstring_parser==0.18.0",
@@ -790,7 +782,7 @@
       "version": "0.18.0"
     },
     {
-      "bom-ref": "edgeforge-knowledge-server==4.1.0",
+      "bom-ref": "edgeforge-knowledge-server==5.0.0",
       "description": "EdgeForge Phase 5 Knowledge Server MCP",
       "externalReferences": [
         {
@@ -814,7 +806,7 @@
       ],
       "name": "edgeforge-knowledge-server",
       "type": "library",
-      "version": "4.1.0"
+      "version": "5.0.0"
     },
     {
       "bom-ref": "email-validator==2.3.0",
@@ -1776,7 +1768,7 @@
       "version": "3.1.5"
     },
     {
-      "bom-ref": "opentelemetry-api==1.45.1",
+      "bom-ref": "opentelemetry-api==1.45.2",
       "description": "OpenTelemetry Python API",
       "externalReferences": [
         {
@@ -1799,9 +1791,9 @@
         }
       ],
       "name": "opentelemetry-api",
-      "purl": "pkg:pypi/opentelemetry-api@1.45.1",
+      "purl": "pkg:pypi/opentelemetry-api@1.45.2",
       "type": "library",
-      "version": "1.45.1"
+      "version": "1.45.2"
     },
     {
       "bom-ref": "packaging==26.2",
@@ -1963,7 +1955,7 @@
       "version": "13.0.0"
     },
     {
-      "bom-ref": "pip==24.0",
+      "bom-ref": "pip==26.0.1",
       "description": "The PyPA recommended tool for installing Python packages.",
       "externalReferences": [
         {
@@ -1996,9 +1988,9 @@
         }
       ],
       "name": "pip",
-      "purl": "pkg:pypi/pip@24.0",
+      "purl": "pkg:pypi/pip@26.0.1",
       "type": "library",
-      "version": "24.0"
+      "version": "26.0.1"
     },
     {
       "bom-ref": "platformdirs==4.10.0",
@@ -2668,7 +2660,7 @@
       "version": "2026.5.1"
     },
     {
-      "bom-ref": "setuptools==79.0.1",
+      "bom-ref": "setuptools==82.0.0",
       "description": "Easily download, build, install, upgrade, and uninstall Python packages",
       "externalReferences": [
         {
@@ -2687,10 +2679,18 @@
           "url": "https://setuptools.pypa.io/en/stable/history.html"
         }
       ],
+      "licenses": [
+        {
+          "license": {
+            "acknowledgement": "declared",
+            "id": "MIT"
+          }
+        }
+      ],
       "name": "setuptools",
-      "purl": "pkg:pypi/setuptools@79.0.1",
+      "purl": "pkg:pypi/setuptools@82.0.0",
       "type": "library",
-      "version": "79.0.1"
+      "version": "82.0.0"
     },
     {
       "bom-ref": "sse-starlette==3.4.5",
@@ -3103,7 +3103,7 @@
         "click==8.4.2",
         "fastmcp==3.4.11",
         "pytest==9.1.1",
-        "setuptools==79.0.1",
+        "setuptools==82.0.0",
         "typing_extensions==4.15.0"
       ],
       "ref": "beartype==0.22.9"
@@ -3114,7 +3114,7 @@
     {
       "dependsOn": [
         "pytest==9.1.1",
-        "setuptools==79.0.1"
+        "setuptools==82.0.0"
       ],
       "ref": "caio==0.9.25"
     },
@@ -3159,7 +3159,7 @@
         "idna==3.18",
         "pytest==9.1.1"
       ],
-      "ref": "dnspython==2.9.0"
+      "ref": "dnspython==2.9.2"
     },
     {
       "dependsOn": [
@@ -3177,11 +3177,11 @@
         "pytest==9.1.1",
         "python-docx==1.2.0"
       ],
-      "ref": "edgeforge-knowledge-server==4.1.0"
+      "ref": "edgeforge-knowledge-server==5.0.0"
     },
     {
       "dependsOn": [
-        "dnspython==2.9.0",
+        "dnspython==2.9.2",
         "idna==3.18"
       ],
       "ref": "email-validator==2.3.0"
@@ -3211,7 +3211,7 @@
         "jsonschema-path==0.5.0",
         "mcp==1.30.0",
         "openapi-pydantic==0.5.1",
-        "opentelemetry-api==1.45.1",
+        "opentelemetry-api==1.45.2",
         "packaging==26.2",
         "platformdirs==4.10.0",
         "py-key-value-aio==0.4.5",
@@ -3238,7 +3238,7 @@
     },
     {
       "dependsOn": [
-        "pip==24.0",
+        "pip==26.0.1",
         "platformdirs==4.10.0"
       ],
       "ref": "griffelib==2.1.0"
@@ -3415,7 +3415,7 @@
       "dependsOn": [
         "typing_extensions==4.15.0"
       ],
-      "ref": "opentelemetry-api==1.45.1"
+      "ref": "opentelemetry-api==1.45.2"
     },
     {
       "ref": "packaging==26.2"
@@ -3443,12 +3443,12 @@
       "dependsOn": [
         "packaging==26.2",
         "pytest==9.1.1",
-        "setuptools==79.0.1"
+        "setuptools==82.0.0"
       ],
       "ref": "pillow==13.0.0"
     },
     {
-      "ref": "pip==24.0"
+      "ref": "pip==26.0.1"
     },
     {
       "ref": "platformdirs==4.10.0"
@@ -3521,7 +3521,7 @@
         "iniconfig==2.3.0",
         "packaging==26.2",
         "pluggy==1.6.0",
-        "setuptools==79.0.1"
+        "setuptools==82.0.0"
       ],
       "ref": "pytest==9.1.1"
     },
@@ -3573,11 +3573,11 @@
         "jaraco.functools==4.5.0",
         "more-itertools==11.1.0",
         "packaging==26.2",
-        "pip==24.0",
+        "pip==26.0.1",
         "platformdirs==4.10.0",
         "pytest==9.1.1"
       ],
-      "ref": "setuptools==79.0.1"
+      "ref": "setuptools==82.0.0"
     },
     {
       "dependsOn": [

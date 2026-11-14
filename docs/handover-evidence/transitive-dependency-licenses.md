@@ -4,13 +4,13 @@
 > `[all,test]` environment, including transitive dependencies. This complements
 > the declared-dependency inventory in [`dependency-licenses.md`](dependency-licenses.md).
 >
-> **Generated:** 2026-11-02, with **pip-licenses 5.5.5**.
+> **Generated:** 2026-11-14, with **pip-licenses 5.5.5**.
 > **Reference baseline:** CPython 3.11 on Ubuntu 24.04 x86_64, using the exact
 > versions in `constraints.txt`.
 
 ## Honest status
 
-**Flagged licenses present:** `certifi` (Mozilla Public License 2.0 (MPL 2.0)). Review before import.
+**Flagged licenses present:** `caio` (UNKNOWN), `certifi` (Mozilla Public License 2.0 (MPL 2.0)). Review before import.
 
 This scan is package-metadata based and should be regenerated in the adopting
 organization's approved package mirror before import.
@@ -29,14 +29,14 @@ Machine-readable copy: [`transitive-dependency-licenses.csv`](transitive-depende
 | `backports.tarfile` | 1.2.0 | MIT License |
 | `beartype` | 0.22.9 | MIT License |
 | `cachetools` | 7.1.4 | MIT |
-| `caio` | 0.9.25 | Apache-2.0 |
+| `caio` | 0.9.25 | UNKNOWN |
 | `certifi` | 2026.10.23 | Mozilla Public License 2.0 (MPL 2.0) |
 | `cffi` | 2.0.0 | MIT |
 | `charset-normalizer` | 3.4.7 | MIT |
 | `click` | 8.4.2 | BSD-3-Clause |
 | `cryptography` | 50.0.1 | Apache-2.0 OR BSD-3-Clause |
 | `cyclopts` | 4.19.0 | Apache-2.0 |
-| `dnspython` | 2.9.0 | ISC |
+| `dnspython` | 2.9.2 | ISC |
 | `docstring_parser` | 0.18.0 | MIT License |
 | `email-validator` | 2.3.0 | The Unlicense (Unlicense) |
 | `et_xmlfile` | 2.0.0 | MIT License |
@@ -68,7 +68,7 @@ Machine-readable copy: [`transitive-dependency-licenses.csv`](transitive-depende
 | `more-itertools` | 11.1.0 | MIT |
 | `openapi-pydantic` | 0.5.1 | MIT License |
 | `openpyxl` | 3.1.5 | MIT License |
-| `opentelemetry-api` | 1.45.1 | Apache-2.0 |
+| `opentelemetry-api` | 1.45.2 | Apache-2.0 |
 | `packaging` | 26.2 | Apache-2.0 OR BSD-2-Clause |
 | `pathable` | 0.6.0 | Apache Software License |
 | `pdfminer.six` | 20260107 | MIT |
