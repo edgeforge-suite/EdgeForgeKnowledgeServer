@@ -13,12 +13,14 @@ EdgeForge suite version when it participates in a suite baseline.
   `[FEATURE]`, `[DOCS]`, `[CHORE]`); releases collect those merged changes into
   suite-aligned tags.
 
-## 5.0.0 — Source Release Preparation (Unreleased)
+## 5.0.0 — Source Changes
 
-- Set package and runtime versions to 5.0.0 in the private
+- Set package and runtime versions to 5.0.0 in the
   `edgeforge-suite/EdgeForgeKnowledgeServer` repository. This section collects
-  preparation changes; no release date, tag, final audit or Suite acceptance is
-  established. Dependencies, the 16-tool contract and storage behavior are
+  source changes, not a release date or proof that a tag or Release is published.
+  Selected-source technical acceptance is recorded in the
+  [Suite acceptance results](https://github.com/edgeforge-suite/EdgeForge/blob/92d0de224d127525b3b3db1365cf931188ccfffb/docs/handover-evidence/v5-acceptance-2026-11-10.md).
+  Dependencies, the 16-tool contract and storage behavior are
   unchanged by this version/documentation closeout.
 
 - Clarify independent community maintenance and optional self-managed enterprise
@@ -42,8 +44,8 @@ EdgeForge suite version when it participates in a suite baseline.
   validation wrapper to preserve the existing non-disclosing error contract.
 - Apply Apache-2.0 SPDX metadata, LICENSE/NOTICE, copyright Santosh Hommaradi
   and DCO 1.1 sign-off guidance (no CLA). Select the edgeforge-suite destination,
-  GitHub PVR and security@edgeforgesuite.com; route operation and maintainer
-  publication authorization remain pending before exposure.
+  GitHub PVR and security@edgeforgesuite.com; verify route operation and obtain
+  maintainer publication authorization before exposure.
 - Earlier dependency and packaging checks remain dated evidence, not final v5
   acceptance. See the [October 25 preparation proof](docs/handover-evidence/v5-source-preparation.md).
 

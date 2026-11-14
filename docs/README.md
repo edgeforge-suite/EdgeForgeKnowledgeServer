@@ -24,7 +24,7 @@ finding the module that owns a behavior.
 - [README](../README.md) — current tool vocabulary, setup, and suite posture.
 - [CONTRIBUTING](../CONTRIBUTING.md) — authoritative contributor rules.
 - [CHANGELOG](../CHANGELOG.md) — suite-aligned baseline history.
-- [SECURITY](../SECURITY.md) — selected private routes await operational verification; do not disclose
+- [SECURITY](../SECURITY.md) — private reporting routes and availability guidance; do not disclose
   vulnerabilities through public issues or PRs.
 
 ## Suite References
