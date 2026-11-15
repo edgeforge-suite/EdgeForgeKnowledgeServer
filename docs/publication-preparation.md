@@ -8,8 +8,12 @@ closeout. Earlier **EF-V5-SOURCE-PREP-KS-S1 revision 2** proof remains dated.
 This is the
 `edgeforge-suite/EdgeForgeKnowledgeServer` repository. These authorities
 supersede conflicting older gates.
-The selected sources and completed coordinated technical acceptance are recorded
-in the [Suite acceptance results](https://github.com/edgeforge-suite/EdgeForge/blob/92d0de224d127525b3b3db1365cf931188ccfffb/docs/handover-evidence/v5-acceptance-2026-11-10.md).
+The selected successor sources, execution and justified reuse are recorded in
+the [November 14 results](https://github.com/edgeforge-suite/EdgeForge/blob/e33869e6ba595e280a4631dbf11e451fb33fe2a6/docs/handover-evidence/v5-dependency-acceptance-2026-11-14.md)
+and [pairing guide](https://github.com/edgeforge-suite/EdgeForge/blob/e33869e6ba595e280a4631dbf11e451fb33fe2a6/docs/suite-release-pairing.md).
+Later independent approval is recorded separately. The
+[November 10 results](https://github.com/edgeforge-suite/EdgeForge/blob/92d0de224d127525b3b3db1365cf931188ccfffb/docs/handover-evidence/v5-acceptance-2026-11-10.md)
+retain the preceding selection's scope.
 Maintainer publication authorization is required before public exposure;
 technical acceptance does not grant it. Source repositories/tags are the
 selected distribution; website hosting is separate. No package/image publishing
@@ -61,7 +65,7 @@ release tuple. Engine and Studio work may proceed independently.
 | Maintainer publication authorization | Maintainer | Verify applicable rights and permissions before authorizing public exposure; keep supporting non-public records private. Apache-2.0, copyright, NOTICE and DCO 1.1/no CLA are selected and applied; no new license choice is pending. |
 | Reporting-route operation | Maintainer / security owner | Verify security@edgeforgesuite.com delivery and replies before public exposure; confirm accountable handling and actual reply identity. Enable and verify GitHub PVR at public cutover, including an appropriate non-admin reporter check before Release publication/announcement. Selection is not availability and no SLA is invented. |
 | Distribution-specific third-party obligations | Maintainer / distribution owner | Source release does not bundle dependency wheels. Preserve dependency notices and artifact-specific evidence; review obligations separately if publishing third-party binaries or bundles. No legal-risk acceptance is made here. |
-| Final release metadata and public cutover | Suite release owner / KS maintainer | Preserve the accepted E/S/K source selection and P/R records identified in the Suite acceptance results. Obtain approval of the actual refreshed main trees and associated PR/Actions material before exposure. Tags, Release publication and visibility changes require their separate authorizations; documentation successors are not replacement tag targets. |
+| Final release metadata and public cutover | Suite release owner / KS maintainer | Preserve the accepted successor E/S/K selection and P/R records identified by the November 14 results links above. Obtain approval of the actual refreshed main trees and associated PR/Actions material before exposure. Tags, Release publication and visibility changes require their separate authorizations; documentation successors are not replacement tag targets. |
 
 These are public-project responsibilities. Enterprise adopters separately own
 their local import approval, package mirrors, host security, corpus policy and

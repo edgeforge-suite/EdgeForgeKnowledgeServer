@@ -18,8 +18,9 @@ EdgeForge suite version when it participates in a suite baseline.
 - Set package and runtime versions to 5.0.0 in the
   `edgeforge-suite/EdgeForgeKnowledgeServer` repository. This section collects
   source changes, not a release date or proof that a tag or Release is published.
-  Selected-source technical acceptance is recorded in the
-  [Suite acceptance results](https://github.com/edgeforge-suite/EdgeForge/blob/92d0de224d127525b3b3db1365cf931188ccfffb/docs/handover-evidence/v5-acceptance-2026-11-10.md).
+  Successor selected-source execution and justified reuse are recorded in the
+  [November 14 results](https://github.com/edgeforge-suite/EdgeForge/blob/e33869e6ba595e280a4631dbf11e451fb33fe2a6/docs/handover-evidence/v5-dependency-acceptance-2026-11-14.md).
+  Later independent approval is recorded separately.
   Dependencies, the 16-tool contract and storage behavior are
   unchanged by this version/documentation closeout.
 

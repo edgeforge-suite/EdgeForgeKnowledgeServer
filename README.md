@@ -45,8 +45,12 @@ The KS package and runtime version is `5.0.0`. It includes deterministic
 identity-role suggestion support for Studio Step 3 review. The earlier `v4.1.0`
 handover-consistency posture and
 `v4.0.0` suite-alignment milestone remain historical baselines. The selected
-Engine/Studio/KS sources and completed technical acceptance are recorded in the
-[Suite acceptance results](https://github.com/edgeforge-suite/EdgeForge/blob/92d0de224d127525b3b3db1365cf931188ccfffb/docs/handover-evidence/v5-acceptance-2026-11-10.md).
+successor Engine/Studio/KS sources, execution and justified reuse are recorded in
+the [November 14 results](https://github.com/edgeforge-suite/EdgeForge/blob/e33869e6ba595e280a4631dbf11e451fb33fe2a6/docs/handover-evidence/v5-dependency-acceptance-2026-11-14.md)
+and [pairing guide](https://github.com/edgeforge-suite/EdgeForge/blob/e33869e6ba595e280a4631dbf11e451fb33fe2a6/docs/suite-release-pairing.md).
+Later independent approval is recorded separately. The
+[November 10 results](https://github.com/edgeforge-suite/EdgeForge/blob/92d0de224d127525b3b3db1365cf931188ccfffb/docs/handover-evidence/v5-acceptance-2026-11-10.md)
+retain the preceding selection's scope.
 Tags and public Releases require separate maintainer authorization; a package
 version alone does not establish publication.
 
