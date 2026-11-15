@@ -8,8 +8,12 @@ closeout. Earlier **EF-V5-SOURCE-PREP-KS-S1 revision 2** proof remains dated.
 This is the
 `edgeforge-suite/EdgeForgeKnowledgeServer` repository. These authorities
 supersede conflicting older gates.
-The selected sources and completed coordinated technical acceptance are recorded
-in the [Suite acceptance results](https://github.com/edgeforge-suite/EdgeForge/blob/92d0de224d127525b3b3db1365cf931188ccfffb/docs/handover-evidence/v5-acceptance-2026-11-10.md).
+The selected successor sources, execution and justified reuse are recorded in
+the [November 14 results](https://github.com/edgeforge-suite/EdgeForge/blob/e33869e6ba595e280a4631dbf11e451fb33fe2a6/docs/handover-evidence/v5-dependency-acceptance-2026-11-14.md)
+and [pairing guide](https://github.com/edgeforge-suite/EdgeForge/blob/e33869e6ba595e280a4631dbf11e451fb33fe2a6/docs/suite-release-pairing.md).
+Later independent approval is recorded separately. The
+[November 10 results](https://github.com/edgeforge-suite/EdgeForge/blob/92d0de224d127525b3b3db1365cf931188ccfffb/docs/handover-evidence/v5-acceptance-2026-11-10.md)
+retain the preceding selection's scope.
 Maintainer publication authorization is required before public exposure;
 technical acceptance does not grant it. Source repositories/tags are the
 selected distribution; website hosting is separate. No package/image publishing
