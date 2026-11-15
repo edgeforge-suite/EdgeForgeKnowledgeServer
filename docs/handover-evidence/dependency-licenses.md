@@ -3,7 +3,7 @@
 > **Import-gate G4 evidence.** Resolved license inventory of KS's declared
 > dependencies. See [`dependencies.md`](dependencies.md) for scope and tooling.
 >
-> **Generated:** 2026-11-02, with **pip-licenses 5.5.5**.
+> **Generated:** 2026-11-14, with **pip-licenses 5.5.5**.
 > **Reference baseline:** CPython 3.11 on Ubuntu 24.04 x86_64, using the exact
 > versions in `constraints.txt`.
 
